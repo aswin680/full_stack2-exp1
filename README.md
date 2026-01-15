@@ -195,23 +195,6 @@ Located in: `src/redux/cartSlice.js`
 
 ---
 
-## 📚 Demo Credentials
-
-You can log in with any email and password:
-
-```
-Email: user@example.com
-Password: anything
-Role: Normal User (or Admin)
-```
-
-Demo Products (Pre-loaded):
-- Product 1: ₹29.99
-- Product 2: ₹49.99
-- Product 3: ₹39.99
-
----
-
 ## 🔍 How State Flows Through the App
 
 ```
