@@ -37,13 +37,13 @@ export default function Cart() {
               value={item.quantity}
               onChange={(e) => handleQuantityChange(item.id, parseInt(e.target.value))}
             />
-            <span>${(item.price * item.quantity).toFixed(2)}</span>
+            <span>₹{(item.price * item.quantity).toFixed(2)}</span>
             <button onClick={() => handleRemove(item.id)}>Remove</button>
           </li>
         ))}
       </ul>
       <div className="cart-total">
-        <h3>Total: ${total.toFixed(2)}</h3>
+        <h3>Total: ₹{total.toFixed(2)}</h3>
         <button onClick={handleClearCart}>Clear Cart</button>
       </div>
     </div>

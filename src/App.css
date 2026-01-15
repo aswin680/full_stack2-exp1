@@ -391,7 +391,7 @@ body {
 }
 
 .cart-item button {
-  background-color: #e74c3c;
+  background-color: #999;
   border: none;
   color: white;
   padding: 5px 10px;
@@ -401,7 +401,7 @@ body {
 }
 
 .cart-item button:hover {
-  background-color: #c0392b;
+  background-color: #777;
 }
 
 .cart-total {
@@ -421,7 +421,7 @@ body {
 }
 
 .cart-total button {
-  background-color: #e74c3c;
+  background-color: #999;
   border: none;
   color: white;
   padding: 8px 15px;
@@ -432,7 +432,7 @@ body {
 }
 
 .cart-total button:hover {
-  background-color: #c0392b;
+  background-color: #777;
 }
 
 /* Admin Dashboard */
