@@ -68,12 +68,6 @@ export default function Login({ onLogin }) {
           </select>
         </div>
 
-        <div className="demo-info">
-          <p><strong>Demo Credentials:</strong></p>
-          <p>Email: user@example.com | Pass: anything</p>
-          <p>Email: admin@example.com | Pass: anything</p>
-        </div>
-
         <button type="submit" className="login-button">Login</button>
       </form>
     </div>
