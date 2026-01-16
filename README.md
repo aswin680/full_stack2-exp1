@@ -8,34 +8,6 @@ This is a **Full Stack Development Experiment** demonstrating state management w
 
 The application is a simple **E-Commerce Platform** where users can browse products and add them to a cart. Admins can manage products.
 
----
-
-## ✨ Features
-
-### 1. **Authentication System (useState)**
-- Simple login form with email and password validation
-- Role-based access (Normal User vs Admin)
-- Logout functionality
-- State stored in `App.jsx` using React's `useState` hook
-
-### 2. **Product Management (Redux)**
-- View all products
-- **Admin**: Add and delete products
-- **User**: Add products to shopping cart
-- Product state managed in Redux store
-
-### 3. **Shopping Cart (Redux)**
-- Add products to cart
-- Adjust product quantities
-- Remove items from cart
-- Calculate total price
-- Clear entire cart
-
-### 4. **Role-Based UI**
-- **Normal User**: See products and cart functionality
-- **Admin**: See product management options and admin dashboard
-
----
 
 ## 🚀 Getting Started
 
