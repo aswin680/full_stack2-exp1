@@ -4,63 +4,10 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Full Stack Exp1</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-      }
-      .container {
-        text-align: center;
-        background: rgba(255, 255, 255, 0.1);
-        padding: 60px 40px;
-        border-radius: 10px;
-        backdrop-filter: blur(10px);
-        max-width: 600px;
-      }
-      h1 {
-        font-size: 3em;
-        margin-bottom: 20px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-      }
-      p {
-        font-size: 1.2em;
-        margin-bottom: 20px;
-        line-height: 1.6;
-      }
-      .button {
-        display: inline-block;
-        background: #fff;
-        color: #667eea;
-        padding: 12px 30px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: bold;
-        margin: 10px;
-        transition: transform 0.3s, box-shadow 0.3s;
-      }
-      .button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      }
-    </style>
+    <title>Vite + React</title>
   </head>
   <body>
-    <div class="container">
-      <h1>🚀 Full Stack Exp1</h1>
-      <p>Welcome to your deployed React application!</p>
-      <p>Your site is now live on GitHub Pages.</p>
-      <a href="https://github.com/aswin680/full_stack2-exp1" class="button">View on GitHub</a>
-    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
