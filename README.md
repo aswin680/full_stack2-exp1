@@ -167,13 +167,6 @@ npm preview
 npm lint
 ```
 
----
-
-## 📞 Questions?
-
-Refer to the inline comments in the code for detailed explanations of each component and Redux slice.
-
----
 
 **Created**: January 2026
 **Student**: FSD-2 Batch
